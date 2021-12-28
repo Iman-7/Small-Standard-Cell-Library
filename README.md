@@ -1,5 +1,5 @@
 # Small Standard Cell Library
-Designed and characterized a small standard cell library using Electric. All the Electric (.jelib) files for the project are displayed in this project. 
+Designed and characterized a small standard cell library using Electric. All the Electric (.jelib) files for the project are displayed in this GitHub repo. 
 ### 1.1 Stick Diagrams
 - The stick Diagrams for the basic cells (NOT, NAND, NOR):
 
