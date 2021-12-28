@@ -56,4 +56,15 @@ correct schematics and layouts for the cells.
 - Second, we calculate the expected height for each cell by measuring the minimum possible spacing between components. While building the designs, we should determine a fixed number for the cell height, which we choose 78 𝛌.
 - If the height exceeds this number, then folding must be done, which means splitting any long PMOS or NMOS to several or parallel resistances dividing the width of the original transistor.
 - The following table shows the resulting height and width for every cell in our library. The height should be a fixed number and the width should be a multiple of 8.
-
+| Cell  | Height | Width |
+| ------------- | ------------- |------------- |
+| NOTx1  | 79  | 32  |
+| NOTx2   | 79 | 32  |
+| NOTx4  | 79  | 56  |
+| NOTx8   | 79 | 88  |
+| NORx1  | 79  | 40  |
+| NORx4   | 79 | 88  |
+| NANDx1  | 79  | 40  |
+| NANDx4   | 79 | 88  |
+| gx1  | 79  | 104  |
+| gx4   | 79 | 344  |
