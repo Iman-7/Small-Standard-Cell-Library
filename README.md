@@ -1,9 +1,12 @@
 # Small Standard Cell Library
 Designing and characterizing a small standard cell library using Electric.
 ### 1.1 Stick Diagrams
-The stick Diagrams for the basic cells (NOT, NAND, NOR):
+- The stick Diagrams for the basic cells (NOT, NAND, NOR):
+
+
   ![alt text](https://github.com/Iman-7/Small-Standard-Cell-Library/blob/main/1.PNG)
-The stick Diagram for the complex function (g(x,y,z) = ~(xy+ xz+ yz)):
+
+- The stick Diagram for the complex function (g(x,y,z) = ~(xy+ xz+ yz)):
    ![alt text](https://github.com/Iman-7/Small-Standard-Cell-Library/blob/main/2.PNG)
 
 ### 1.2 Calculations of Cells’ heights
@@ -26,7 +29,7 @@ c. For the 2 input NOR gate:
 of nmos = 1*Wmin = 3 𝛌, So, H = 8 + 14 + 8 + 4 + 3 + 8 + 4 = 49𝛌
 - Size 4: width of the pmos = 8*Kp*Wmin = 8 x 2.3 x 3 = 55.2 = 56𝛌, width
 of nmos = 4*Wmin = 12 𝛌, So, H =8 + 56 + 8 + 4 + 12 + 8 + 4 = 100 𝛌
-d. For the Complex function g(x,y,z) = (xy+xz+yz)’
+d. For the Complex function g(x,y,z) = ~(xy+xz+yz)
 - Size 1: width of the pmos = 2*Kp*Wmin = 2 x 2.3 x 3 = 13.8 = 14𝛌, width
 of nmos = 2*Wmin = 6 𝛌, So, H = 8 + 14 + 8 + 8 + 8 + 4 + 6 + 8 + 4 = 68𝛌
 - Size 4: width of the pmos = 8*Kp*Wmin = 8 x 2.3 x 3 = 55.2 = 56𝛌, width
